@@ -3547,7 +3547,7 @@ lString16 LVExtractPath( lString16 pathName, bool appendEmptyPath )
             last_delim_pos = i;
     if ( last_delim_pos==-1 )
 #ifdef _LINUX
-        return lString16(appendEmptyPath ? L"./" : L"");
+        return lString16(appendEmptyPath ? L"" : L"");
 #else
         return lString16(appendEmptyPath ? L".\\" : L"");
 #endif
@@ -3719,7 +3719,7 @@ lString16 LVCombinePaths( lString16 basePath, lString16 newPath )
             }
         }
     } while ( changed && s.length()>=pattern.length() );
-    // "./"
+    // ""
     if ( s.length()>2 && s[0]=='.' && s[1]==separator )
         s.erase(0, 2);
     return s;

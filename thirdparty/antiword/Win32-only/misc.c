@@ -42,7 +42,7 @@ szGetHomeDirectory(void)
 	static char homedir[256];
 	const char	*szHome;
 
-	szHome = getenv("HOME");
+	szHome = getenv("");
 	if (szHome == NULL || szHome[0] == '\0') {
 #if defined(WIN32)
 		(void)GetCurrentDirectory(255, &homedir[0]);

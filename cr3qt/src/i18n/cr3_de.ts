@@ -16,38 +16,7 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Cool Reader 3.0.22</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>20-09-2009</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>(c) 1998-2009 Vadim Lopatin</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>About Cool Reader</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
-&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
-p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:8.25pt; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;DejaVu Sans&apos;; font-size:9pt;&quot;&gt;CoolReader is free open source e-book viewer based on CoolReader engine.&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;DejaVu Sans&apos;; font-size:9pt;&quot;&gt;Source code is avaliable at SourceForge &lt;/span&gt;&lt;span style=&quot; font-family:&apos;DejaVu Sans&apos;; font-size:9pt; text-decoration: underline;&quot;&gt;http://sourceforge.net/projects/crengine &lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;DejaVu Sans&apos;; font-size:9pt;&quot;&gt;under the terms of GNU GPL2 license.&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:&apos;DejaVu Sans&apos;; font-size:9pt;&quot;&gt;&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;DejaVu Sans&apos;; font-size:9pt; text-decoration: underline;&quot;&gt;Third party components used:&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;DejaVu Sans&apos;; font-size:9pt;&quot;&gt;Qt4.5 - as GUI library&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;DejaVu Sans&apos;; font-size:9pt;&quot;&gt;FreeType - font engine&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;DejaVu Sans&apos;; font-size:9pt;&quot;&gt;ZLib - ompressing library&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;DejaVu Sans&apos;; font-size:9pt;&quot;&gt;libpng - PNG image format support&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;DejaVu Sans&apos;; font-size:9pt;&quot;&gt;libjpeg - JPEG image format support&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;DejaVu Sans&apos;; font-size:9pt;&quot;&gt;Hyphenation dictionaries - from AlReader&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:&apos;DejaVu Sans&apos;; font-size:9pt;&quot;&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -343,17 +312,37 @@ POSSIBILITY OF SUCH DAMAGES.
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Source code may be downloaded from sourceforge crengine project page.
-
-Latest source code is available from CVS:
-cvs -z3 -d:pserver:anonymous@crengine.cvs.sourceforge.net:/cvsroot/crengine co -P cr3qt
-cd cr3qt
-cvs -z3 -d:pserver:anonymous@crengine.cvs.sourceforge.net:/cvsroot/crengine co -P crengine
-cvs -z3 -d:pserver:anonymous@crengine.cvs.sourceforge.net:/cvsroot/tinydict co -P tinydict</source>
+        <source>Source Code</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Source Code</source>
+        <source>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:8.25pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;DejaVu Sans&apos;; font-size:9pt;&quot;&gt;CoolReader is free open source e-book viewer based on CoolReader engine.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;DejaVu Sans&apos;; font-size:9pt;&quot;&gt;Source code is available at SourceForge &lt;/span&gt;&lt;span style=&quot; font-family:&apos;DejaVu Sans&apos;; font-size:9pt; text-decoration: underline;&quot;&gt;http://sourceforge.net/projects/crengine &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;DejaVu Sans&apos;; font-size:9pt;&quot;&gt;under the terms of GNU GPL2 license.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:&apos;DejaVu Sans&apos;; font-size:9pt;&quot;&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;DejaVu Sans&apos;; font-size:9pt; text-decoration: underline;&quot;&gt;Third party components used:&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;DejaVu Sans&apos;; font-size:9pt;&quot;&gt;Qt4.5 - as GUI library&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;DejaVu Sans&apos;; font-size:9pt;&quot;&gt;FreeType - font engine&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;DejaVu Sans&apos;; font-size:9pt;&quot;&gt;ZLib - ompressing library&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;DejaVu Sans&apos;; font-size:9pt;&quot;&gt;libpng - PNG image format support&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;DejaVu Sans&apos;; font-size:9pt;&quot;&gt;libjpeg - JPEG image format support&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;DejaVu Sans&apos;; font-size:9pt;&quot;&gt;Hyphenation dictionaries - from AlReader&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:&apos;DejaVu Sans&apos;; font-size:9pt;&quot;&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Source code may be downloaded from sourceforge crengine project page:
+http://sourceforge.net/projects/crengine/
+
+Latest source code is available from GIT repository:
+&gt; git clone git://crengine.git.sourceforge.net/gitroot/crengine/crengine
+
+See README.TXT at root directory of project for build instructions.
+</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -667,18 +656,6 @@ cvs -z3 -d:pserver:anonymous@crengine.cvs.sourceforge.net:/cvsroot/tinydict co -
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>All supported formats (*.fb2 *.txt *.tcr *.rtf *.epub *.html *.htm *.zip);;FB2 books (*.fb2 *.fb2.zip);;Text files (*.txt);;Rich text (*.rtf);;HTML files (*.htm *.html);;EPUB files (*.epub);;ZIP archives (*.zip)</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Not implemented</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Search is not implemented yet</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>Export document to</source>
         <translation type="unfinished"></translation>
     </message>
@@ -688,6 +665,50 @@ cvs -z3 -d:pserver:anonymous@crengine.cvs.sourceforge.net:/cvsroot/tinydict co -
     </message>
     <message>
         <source>Export to WOL format</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>All supported formats</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>FB2 books</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Text files</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Rich text</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>MS Word document</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>HTML files</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>EPUB files</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>CHM files</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>MOBI files</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>PalmDOC files</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>ZIP archives</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -1057,6 +1078,50 @@ cvs -z3 -d:pserver:anonymous@crengine.cvs.sourceforge.net:/cvsroot/tinydict co -
         <source>Ctrl+S</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>Next Page</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Right</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Previous Page</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Left</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Space</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Next Sentence</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Move selection to next sentence</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Ctrl+Right</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>actionPrevSentence</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Select orevious sentence</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Ctrl+Left</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>RecentBooksDlg</name>
@@ -1098,6 +1163,45 @@ cvs -z3 -d:pserver:anonymous@crengine.cvs.sourceforge.net:/cvsroot/tinydict co -
     </message>
     <message>
         <source>Clear All</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>SearchDialog</name>
+    <message>
+        <source>Not found</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Search pattern is not found in document</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Search</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Text</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Case Sensitive</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Search forward</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Search backward</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Find Next</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Close</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -1301,6 +1405,634 @@ cvs -z3 -d:pserver:anonymous@crengine.cvs.sourceforge.net:/cvsroot/tinydict co -
     </message>
     <message>
         <source>Styles</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Default paragraph style</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Title</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Subtitle</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Preformatted text</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Link</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Cite / quotation</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Epigraph</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Poem</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Text author</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Footnote link</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Footnote</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Footnote title</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Annotation</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>-</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Justify</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Left</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Center</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Right</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>No indent</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Small Indent</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Big Indent</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Small Outdent</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Big Outdent</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>20% of line height</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>30% of line height</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>50% of line height</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>100% of line height</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>150% of line height</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>200% of line height</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>400% of line height</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>5% of line width</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>10% of line width</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>15% of line width</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>20% of line width</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>30% of line width</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Normal</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Bold</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Bolder</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Lighter</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Increase: 110%</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Increase: 120%</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Increase: 150%</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Decrease: 90%</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Decrease: 80%</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Decrease: 70%</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Decrease: 60%</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Italic</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>[Default Sans Serif]</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>[Default Serif]</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>[Default Monospace]</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Black</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Green</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Silver</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Lime</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Gray</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Olive</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>White</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Yellow</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Maroon</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Navy</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Red</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Blue</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Purple</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Teal</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Fuchsia</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Aqua</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>None</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Underline</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Line through</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Overline</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Baseline</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Subscript</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Superscript</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Selection color</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Comment bookmark color</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Correction bookmark color</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>2</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>3</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>4</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>6</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>7</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>9</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>11</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>12</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>40</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>50</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>60</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Comment color</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Correction color</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Bookmark highlight</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Disabled</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Solid fill</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Inline images zoom in</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Integer scale</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Arbitrary scale</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Block images zoom in</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Block images zoom out</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Inline images zoom out</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Image scaling options</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Floating punctuation</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Enable floating punctuation</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>0.3</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>0.35</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>0.4</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>0.45</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>0.5</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>0.55</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>0.6</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>0.65</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>0.7</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>0.75</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>0.8</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>0.85</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>0.9</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>0.95</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>0.98</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>1.0</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>1.02</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>1.05</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>1.1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>1.15</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>1.2</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>1.25</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>1.3</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>1.35</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>1.4</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>1.45</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>1.5</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>1.6</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>1.7</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>1.8</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>1.9</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Font Gamma</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Font hinting</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>No hinting</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Use bytecode</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Autohinting</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Fallback font</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Enable documetn internal styles</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Internal CSS</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Enable document embedded fonts</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>.EPUB</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Alignment</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>First line</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Font size</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Font face</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Font weight</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Font style</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Font color</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Margins:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Before</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>After</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Interline space</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Text decoration</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Vertical align</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Stylesheet</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

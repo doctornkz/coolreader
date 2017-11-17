@@ -210,7 +210,7 @@
 #define ANTIWORD_DIR		"antiword"
 #define FONTNAMES_FILE		"fontname.txt"
 #elif defined(__vms)
-#define GLOBAL_ANTIWORD_DIR	"/usr/share/antiword"
+#define GLOBAL_ANTIWORD_DIR	"antiword"
 #define ANTIWORD_DIR		"antiword"
 #define FONTNAMES_FILE		"fontnames"
 #elif defined(__BEOS__)

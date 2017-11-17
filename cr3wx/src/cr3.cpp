@@ -701,13 +701,13 @@ cr3app::OnInit()
         fonts.add( sysFontDir + lString16(msfonts[fi]) );
 #endif
 #ifdef _LINUX
-    fontDirs.add("/usr/local/share/cr3/fonts");
-    fontDirs.add("/usr/local/share/fonts/truetype/freefont");
-    fontDirs.add("/usr/share/cr3/fonts");
-    fontDirs.add("/usr/share/fonts/truetype/freefont");
+    //fontDirs.add("/usr/local/share/cr3/fonts");
+    //fontDirs.add("/usr/local/share/fonts/truetype/freefont");
+    fontDirs.add("fonts");
+    //fontDirs.add("/usr/share/fonts/truetype/freefont");
     //fontDirs.add( lString16(L"/usr/share/fonts/truetype/msttcorefonts") );
     for ( int fi=0; msfonts[fi]; fi++ )
-        fonts.add( lString16("/usr/share/fonts/truetype/msttcorefonts/") + lString16(msfonts[fi]) );
+        fonts.add( lString16("fonts/truetype/msttcorefonts/") + lString16(msfonts[fi]) );
 #endif
     getDirectoryFonts( fontDirs, fontExt, fonts, true );
 
@@ -757,7 +757,7 @@ cr3app::OnInit()
     sprintf(hyphfn, "Russian_EnUS_hyphen_(Alan).pdb" );
     if ( !initHyph( (UnicodeToLocal(appPath) + hyphfn).c_str() ) ) {
 #ifdef _LINUX
-        initHyph( "/usr/share/cr3/hyph/Russian_EnUS_hyphen_(Alan).pdb" );
+        initHyph( "hyph/Russian_EnUS_hyphen_(Alan).pdb" );
 #endif
     }
 
@@ -1131,7 +1131,7 @@ void cr3Frame::OnInitDialog(wxInitDialogEvent& event)
     LVLoadStylesheetFile( _appDir + "fb2.css", css );
 #ifdef _LINUX
     if ( css.empty() )
-        LVLoadStylesheetFile( L"/usr/share/cr3/fb2.css", css );
+        LVLoadStylesheetFile( L"fb2.css", css );
         //css = readFileToString( "/usr/share/crengine/fb2.css" );
     if ( css.empty() )
         LVLoadStylesheetFile( L"/usr/local/share/cr3/fb2.css", css );

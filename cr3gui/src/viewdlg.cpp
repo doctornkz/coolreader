@@ -38,8 +38,8 @@
 #define DICTD_CONF "/root/abook/dict"
 #define DICTD_CONF_ALT "/root/crengine/dict"
 #else
-#define DICTD_CONF "/media/sd/dict"
-#define DICTD_CONF_ALT "/usr/share/cr3/dict"
+#define DICTD_CONF "dict"
+#define DICTD_CONF_ALT "dict"
 #endif
 #endif
 

@@ -1189,6 +1189,30 @@ Podívejte se v souboru README.TXT v kořenovém adresáři na pokyn pro sestave
         <source>Space</source>
         <translation>Mezerník</translation>
     </message>
+    <message>
+        <source>Next Sentence</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Move selection to next sentence</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Ctrl+Right</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>actionPrevSentence</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Select orevious sentence</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Ctrl+Left</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>RecentBooksDlg</name>
@@ -2065,6 +2089,42 @@ Podívejte se v souboru README.TXT v kořenovém adresáři na pokyn pro sestave
     <message>
         <source>Correction bookmark color</source>
         <translation>Barva záložky opravy</translation>
+    </message>
+    <message>
+        <source>4</source>
+        <translation type="unfinished">4</translation>
+    </message>
+    <message>
+        <source>6</source>
+        <translation type="unfinished">6</translation>
+    </message>
+    <message>
+        <source>7</source>
+        <translation type="unfinished">7</translation>
+    </message>
+    <message>
+        <source>9</source>
+        <translation type="unfinished">9</translation>
+    </message>
+    <message>
+        <source>11</source>
+        <translation type="unfinished">11</translation>
+    </message>
+    <message>
+        <source>12</source>
+        <translation type="unfinished">12</translation>
+    </message>
+    <message>
+        <source>40</source>
+        <translation type="unfinished">40</translation>
+    </message>
+    <message>
+        <source>50</source>
+        <translation type="unfinished">50</translation>
+    </message>
+    <message>
+        <source>60</source>
+        <translation type="unfinished">60</translation>
     </message>
 </context>
 <context>

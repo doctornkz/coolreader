@@ -40,7 +40,7 @@ szGetHomeDirectory(void)
 #elif defined(__Plan9__)
 	szHome = getenv("home");
 #else
-	szHome = getenv("HOME");
+	szHome = getenv("");
 #endif /* __vms */
 
 	if (szHome == NULL || szHome[0] == '\0') {

@@ -1298,7 +1298,7 @@ int main(int argc, char **argv)
     CRLog::setLogLevel( CRLog::LL_TRACE );
 #else
     //CRLog::setLogLevel( CRLog::LL_ERROR );
-    InitCREngineLog("/home/user/.crengine/crlog.ini");
+    InitCREngineLog("./crlog.ini");
 #endif
 
        
@@ -1391,22 +1391,21 @@ int main(int argc, char **argv)
         CRLog::error("connection has an error! exiting.");
     } else {
 
-        lString16 home = Utf8ToUnicode(lString8(( getenv("HOME") ) ));
-        lString16 homecrengine = home + "/.crengine/";
+        //lString16 home = Utf8ToUnicode(lString8(( getenv("HOME") ) ));
+        lString16 homecrengine = "";
 
         lString8 home8 = UnicodeToUtf8( homecrengine );
         const char * keymap_locations [] = {
-            "/etc/cr3",
-            "/usr/share/cr3",
+            "etc/",
+            "",
             home8.c_str(),
-            "/media/sd/crengine/",
+            "",
             NULL,
         };
         loadKeymaps( winman, keymap_locations );
 
         if ( !winman.loadSkin(homecrengine + "skin") )
-            if ( !winman.loadSkin(  lString16("/media/sd/crengine/skin") ) )
-                winman.loadSkin( lString16("/usr/share/cr3/skins/default") );
+            winman.loadSkin( lString16("skins/default") );
         {
             const lChar16 * imgname =
                 ( winman.getScreenOrientation()&1 ) ? L"cr3_logo_screen_landscape.png" : L"cr3_logo_screen.png";
@@ -1415,19 +1414,15 @@ int main(int argc, char **argv)
                 winman.getScreen()->getCanvas()->Draw(img, 0, 0, winman.getScreen()->getWidth(), winman.getScreen()->getHeight(),  false );
             }
         }
-        HyphMan::initDictionaries( lString16("/usr/share/cr3/hyph/") );
+        HyphMan::initDictionaries( lString16("hyph/") );
         //LVExtractPath(LocalToUnicode(lString8(fname)))
         main_win = new XCBDocViewWin( &winman, lString16(CRSKIN) );
         main_win->getDocView()->setBackgroundColor(0xFFFFFF);
         main_win->getDocView()->setTextColor(0x000000);
         main_win->getDocView()->setFontSize( 20 );
-        if ( !main_win->loadDefaultCover( lString16( L"/media/sd/crengine/cr3_def_cover.png" ) ) )
-            main_win->loadDefaultCover( lString16( L"/usr/share/cr3/cr3_def_cover.png" ) );
-        if ( !main_win->loadCSS(  lString16( L"/media/sd/crengine/fb2.css" ) ) )
-            main_win->loadCSS( lString16( L"/usr/share/cr3/fb2.css" ) );
-
-        if ( !main_win->loadDictConfig(  lString16( L"/media/sd/crengine/dict/dictd.conf" ) ) )
-            main_win->loadDictConfig( lString16( L"/usr/share/cr3/dict/dictd.conf" ) );
+        main_win->loadDefaultCover( lString16( L"cr3_def_cover.png" ) );
+        main_win->loadCSS( lString16( L"fb2.css" ) );
+        main_win->loadDictConfig( lString16( L"dict/dictd.conf" ) );
         if ( bmkdir!=NULL )
             main_win->setBookmarkDir( lString16(bmkdir) );
 
